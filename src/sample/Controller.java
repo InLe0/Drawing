@@ -43,7 +43,7 @@ public class Controller {
                 new EventHandler<MouseEvent>() {
                     @Override
                     public void handle(MouseEvent event) {
-                        graphicsContext.beginPath();
+                        graphicsContext.beginPath(); //pink e
                         graphicsContext.moveTo(event.getX(), event.getY());
                         graphicsContext.stroke();
 
